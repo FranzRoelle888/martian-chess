@@ -387,7 +387,7 @@ body {
 .logo {
   font-family: var(--serif);
   font-weight: 300;
-  font-size: clamp(46px, 7.2vw, 116px);
+  font-size: clamp(40px, min(7.2vw, 12vh), 116px);
   letter-spacing: 0.22em;
   margin: 0.2em 0 0.12em 0.22em;
   text-transform: uppercase;
@@ -410,7 +410,7 @@ body {
   font-weight: 400;
   font-size: clamp(18px, 1.7vw, 25px);
   color: var(--ink-2);
-  margin: 0 0 36px;
+  margin: 0 0 min(36px, 4vh);
   text-shadow: 0 2px 18px var(--shadow);
 }
 
@@ -457,7 +457,7 @@ body {
 .end .headline {
   font-family: var(--serif);
   font-weight: 300;
-  font-size: clamp(40px, 5.4vw, 84px);
+  font-size: clamp(36px, min(5.4vw, 9.5vh), 84px);
   letter-spacing: 0.06em;
   margin: 0.18em 0 0.06em;
   line-height: 1.05;

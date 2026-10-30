@@ -1388,7 +1388,7 @@ function setView(name, dur = 2.6) {
 function computeBaseDist() {
   const vt = Math.tan(THREE.MathUtils.degToRad(camera.fov / 2));
   const ht = vt * camera.aspect;
-  baseDist = Math.max(8.35 / ht, 3.9 / vt);
+  baseDist = Math.max(8.35 / ht, 4.6 / vt);
 }
 
 function updateCamera(dt) {
